@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Rewrite for the redirect path (without leading slash and with optional trailing slash)
+RewriteRule ^redirect/?$ redirect.php [NC,L]
+
+# Rewrite for the embed path (without leading slash and with optional trailing slash)
+RewriteRule ^embed/?$ embed.php [NC,L]
+
+# Check if the requested filename is not a regular file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rewrite the URL to append the .php extension
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

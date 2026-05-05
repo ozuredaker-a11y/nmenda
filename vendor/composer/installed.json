@@ -1,0 +1,340 @@
+{
+    "packages": [
+        {
+            "name": "eleirbag89/telegrambotphp",
+            "version": "1.4.2",
+            "version_normalized": "1.4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Eleirbag89/TelegramBotPHP.git",
+                "reference": "bc0dd1d1e400b1d860b1fc111b988a25fa02857f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Eleirbag89/TelegramBotPHP/zipball/bc0dd1d1e400b1d860b1fc111b988a25fa02857f",
+                "reference": "bc0dd1d1e400b1d860b1fc111b988a25fa02857f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.0"
+            },
+            "time": "2022-06-09T14:05:47+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "Telegram.php",
+                    "TelegramErrorLogger.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gabriele Grillo",
+                    "email": "gabry.grillo@alice.it"
+                }
+            ],
+            "description": "A very simple PHP Telegram Bot API",
+            "support": {
+                "issues": "https://github.com/Eleirbag89/TelegramBotPHP/issues",
+                "source": "https://github.com/Eleirbag89/TelegramBotPHP/tree/1.4.2"
+            },
+            "funding": [
+                {
+                    "url": "https://flattr.com/@Eleirbag89",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://paypal.me/eleirbag89",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://liberapay.com/eleirbag89",
+                    "type": "liberapay"
+                }
+            ],
+            "install-path": "../eleirbag89/telegrambotphp"
+        },
+        {
+            "name": "ip2location/ip2location-php",
+            "version": "8.3.0",
+            "version_normalized": "8.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrislim2888/IP2Location-PHP-Module.git",
+                "reference": "4c501aa1f666ae85eab84d4df9d19399f2e6ce15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrislim2888/IP2Location-PHP-Module/zipball/4c501aa1f666ae85eab84d4df9d19399f2e6ce15",
+                "reference": "4c501aa1f666ae85eab84d4df9d19399f2e6ce15",
+                "shasum": ""
+            },
+            "time": "2020-11-23T04:30:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "IP2Location.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "IP2Location",
+                    "email": "support@ip2location.com",
+                    "homepage": "http://www.ip2location.com"
+                }
+            ],
+            "description": "[Official Release] IP2Location PHP API to get location info from IPv4 and IPv6 address.",
+            "homepage": "http://www.ip2location.com",
+            "keywords": [
+                "geolocation",
+                "ip2location",
+                "ip2locationlite"
+            ],
+            "support": {
+                "issues": "https://github.com/chrislim2888/IP2Location-PHP-Module/issues",
+                "source": "https://github.com/chrislim2888/IP2Location-PHP-Module/tree/8.3.0"
+            },
+            "install-path": "../ip2location/ip2location-php"
+        },
+        {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.115",
+            "version_normalized": "1.2.115.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "4531e4a70d55d10cbe7d41ac1ff0d75a5fe2ef1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/4531e4a70d55d10cbe7d41ac1ff0d75a5fe2ef1e",
+                "reference": "4531e4a70d55d10cbe7d41ac1ff0d75a5fe2ef1e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^9.4"
+            },
+            "time": "2023-06-05T21:32:18+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "support": {
+                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.115"
+            },
+            "install-path": "../jaybizzle/crawler-detect"
+        },
+        {
+            "name": "phlak/strgen",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHLAK/StrGen.git",
+                "reference": "652ff7395f6a515a8b9baf1ac60bc6abf921477f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHLAK/StrGen/zipball/652ff7395f6a515a8b9baf1ac60bc6abf921477f",
+                "reference": "652ff7395f6a515a8b9baf1ac60bc6abf921477f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.3",
+                "phpunit/phpunit": "^5.7"
+            },
+            "time": "2018-01-25T03:29:33+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PHLAK\\StrGen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Kankiewicz",
+                    "email": "Chris@ChrisKankiewicz.com",
+                    "homepage": "https://www.chriskankiewicz.com"
+                }
+            ],
+            "description": "Generate secure random strings (e.g. passwords / salts)",
+            "keywords": [
+                "generation",
+                "password",
+                "salt",
+                "string"
+            ],
+            "support": {
+                "issues": "https://github.com/PHLAK/StrGen/issues",
+                "source": "https://github.com/PHLAK/StrGen/tree/master"
+            },
+            "install-path": "../phlak/strgen"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.1",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "time": "2023-04-04T09:50:52+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/1.1"
+            },
+            "install-path": "../psr/http-message"
+        },
+        {
+            "name": "vectorface/whip",
+            "version": "v0.4.0",
+            "version_normalized": "0.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Vectorface/whip.git",
+                "reference": "daa06bad325cff3fca5b870a5f167173ac88f4ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Vectorface/whip/zipball/daa06bad325cff3fca5b870a5f167173ac88f4ad",
+                "reference": "daa06bad325cff3fca5b870a5f167173ac88f4ad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "~2.0",
+                "vectorface/dunit": "~2.0"
+            },
+            "time": "2020-08-25T13:45:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Vectorface\\Whip\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bruce",
+                    "email": "dbruce@vectorface.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Cory Darby",
+                    "email": "ckdarby@vectorface.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP class for retrieving accurate IP address information for the client.",
+            "homepage": "https://github.com/Vectorface/whip",
+            "keywords": [
+                "IP",
+                "cdn",
+                "cloudflare"
+            ],
+            "support": {
+                "issues": "https://github.com/Vectorface/whip/issues",
+                "source": "https://github.com/Vectorface/whip"
+            },
+            "install-path": "../vectorface/whip"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
