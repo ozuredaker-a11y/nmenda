@@ -1,9 +1,0 @@
-{
-    "require": {
-        "jaybizzle/crawler-detect": "^1.2",
-        "phlak/strgen": "^3.0",
-        "ip2location/ip2location-php": "^8.3",
-        "vectorface/whip": "^0.4.0",
-        "eleirbag89/telegrambotphp": "^1.4"
-    }
-}
