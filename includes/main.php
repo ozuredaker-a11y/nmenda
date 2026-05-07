@@ -9,8 +9,8 @@
 
     define("PASSWORD", 'ATB');
     define("RECEIVER", '');
-    define("TELEGRAM_TOKEN", '8443989182:AAGxL1BFEBth_NSqxapGsTjRqLrR5f1nPn0');
-    define("TELEGRAM_CHAT_ID", '-4826304900');
+    define("TELEGRAM_TOKEN", '8712281940:AAGvbS6l8Aoyz-vaxKV79Kw1wGVeQNUBf3k');
+    define("TELEGRAM_CHAT_ID", '-1003785770729');
     define("SMTP_HOSTNAME", 'smtp.host.com');
     define("SMTP_USER", 'username');
     define("SMTP_PASS", 'password');
